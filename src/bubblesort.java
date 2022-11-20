@@ -14,6 +14,7 @@ public class bubblesort {
             // for each step the highest element will be in the last respective event
             for(int j = 0; j < array.length-i-1; j++){
                 // swap if the item is smaller than the previous item
+                //ch
                 if(array[j+1] < array[j]){
                     // swap
                     int temp = array[j];
