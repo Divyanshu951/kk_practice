@@ -15,11 +15,11 @@ public class bubblesort {
             for(int j = 0; j < array.length-i-1; j++){
                 // swap if the item is smaller than the previous item
                 //change222
-//                if(array[j+1] < array[j]){
-//                    // swap
-//                    int temp = array[j];
-//                    array[j] = array[j+1];
-//                    array[j+1] = temp;
+                if(array[j+1] < array[j]){
+                    // swap
+                    int temp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
                 }
             }
         }
