@@ -7,10 +7,9 @@ public class plus_one {
     }
     public static int single_number(int[] nums) {
         int res = 0;
+        for(int i = 0; i < nums.length; i++){
 
-//        for (int i = 0; i < nums.length; i++) {
-//            res = res ^ nums[i];
-//        }
+        }
 
         return res;
     }

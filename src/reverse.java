@@ -16,11 +16,10 @@ public class reverse {
 
     }
     public static void swap(int[] arr, int s, int e){
-        for(int i = 0; i < arr.length; i++) {
             int temp = arr[s];
             arr[s] = arr[e];
             arr[e] = temp;
-        }
+
 
     }
 }
