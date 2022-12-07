@@ -23,7 +23,14 @@ public class string {
         float a = 7.232123f;
         System.out.printf("Print %.2f",a);
         System.out.printf("Hello my name is %s and in my from %s","div","hyd");
+        System.out.println();
 
 
+        String series = "";
+        for (int i = 0; i < 26; i++) {
+            char ch = (char)('a' + i);
+            series = series + ch;
+        }
+        System.out.println(series);
     }
 }
