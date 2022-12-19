@@ -1,3 +1,6 @@
+//drive link for notes
+//https://drive.google.com/file/d/1F-ieXAvO6SB9P2yxztnNOgru5TjOQnoq/view?usp=sharing
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
