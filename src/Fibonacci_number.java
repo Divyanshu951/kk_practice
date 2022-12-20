@@ -2,11 +2,12 @@
 
 public class Fibonacci_number {
     public static void main(String[] args) {
-       int n = 10;
-        for (int i = 0; i < n; i++) {
-            System.out.print(febrec(i));
+       int n = 4;
+       int ans = febrec(n);
+        System.out.println (ans);
+
+
         }
-    }
     //function to print n factional number
     public static void fab(int n){
         //without recursion
@@ -22,7 +23,7 @@ public class Fibonacci_number {
     }
     //using recursion
     public static int febrec(int n){
-        if(n <= 1) return n;
+        if(n < 2) return n;
         return febrec(n - 1) + febrec(n - 2);
     }
 }
