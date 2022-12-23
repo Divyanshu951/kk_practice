@@ -2,7 +2,8 @@
 
 public class Fibonacci_number {
     public static void main(String[] args) {
-       int n = 4;
+       int n = 50;
+        fab(n);
        int ans = febrec(n);
         System.out.println (ans);
 
@@ -14,12 +15,12 @@ public class Fibonacci_number {
         int first = 0,sec = 1;
         int counter = 0;
         while(counter < n){
-            System.out.print(first + " ");
             int num3 = first + sec;
             first = sec;
             sec = num3;
             counter++;
         }
+        System.out.print(first);
     }
     //using recursion
     public static int febrec(int n){
